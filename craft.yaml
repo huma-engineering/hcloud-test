@@ -13,7 +13,7 @@ services:
     type: container
     build:
       repo: https://github.com/huma-engineering/hcloud-test
-      branch: master
+      branch: main
       dockerfile: build/Dockerfile
       context: web
     ingress:
