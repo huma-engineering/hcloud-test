@@ -8,13 +8,13 @@ project:
     id: 17
     name: hcloud-test
 
-services:
-  - name: web
-    type: container
-    build:
-      repo: https://github.com/huma-engineering/hcloud-test
-      branch: main
-    ingress:
-      host: hcloud-test.sbx.huma.com
-      paths: ["/"]
-      port: 80
+services: []
+  # - name: web
+  #   type: container
+  #   build:
+  #     repo: https://github.com/huma-engineering/hcloud-test
+  #     branch: main
+  #   ingress:
+  #     host: hcloud-test.sbx.huma.com
+  #     paths: ["/"]
+  #     port: 80
