@@ -4,7 +4,7 @@ on:
     branches:
       - hcloud-test
 
-project:
+workspace:
     id: 17
     name: hcloud-test
 
