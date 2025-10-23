@@ -14,8 +14,6 @@ services:
     build:
       repo: https://github.com/huma-engineering/hcloud-test
       branch: main
-      dockerfile: build/Dockerfile
-      context: web
     ingress:
       host: hcloud-test.sbx.huma.com
       paths: ["/"]
