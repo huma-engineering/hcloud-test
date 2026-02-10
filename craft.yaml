@@ -1,8 +1,4 @@
 ---
-workspace:
-  id: 12
-  name: your-program-name
-
 services:
   - name: hcc-example
     type: container
@@ -12,6 +8,6 @@ services:
       dockerfile: Dockerfile
       context: .
     ingress:
-      host: hcc-example.sbx.huma.com
+      host: cli-test.sbx.huma.com
       paths: ["/"]
       port: 8000
