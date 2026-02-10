@@ -1,0 +1,17 @@
+---
+workspace:
+  id: 12
+  name: your-program-name
+
+services:
+  - name: hcc-example
+    type: container
+    build:
+      repo: https://github.com/huma-engineering/hcloud-test
+      branch: main
+      dockerfile: Dockerfile
+      context: .
+    ingress:
+      host: hcc-example.sbx.huma.com
+      paths: ["/"]
+      port: 8000
