@@ -8,6 +8,6 @@ services:
       dockerfile: Dockerfile
       context: .
     ingress:
-      host: cli-test.sbx.huma.com
+      host: cli-test-2.sbx.huma.com
       paths: ["/"]
       port: 8000
