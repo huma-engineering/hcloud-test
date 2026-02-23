@@ -1,0 +1,12 @@
+workspace:
+  id: 47
+  name: cli-test
+services:
+  - name: fastapi-example
+    type: container
+    build:
+      dockerfile: Dockerfile
+      context: .
+    ingress:
+      host: fastapi-example-xt6my.sbx.huma.com
+      port: 8000
