@@ -4,8 +4,8 @@ on:
       - blueprint
 
 workspace:
-  id: 47
-  name: cli-test
+  id: 2
+  name: production-test
 services:
   - name: fastapi-example
     type: container
@@ -15,5 +15,5 @@ services:
       dockerfile: Dockerfile
       context: .
     ingress:
-      host: fastapi-example-xt6my.sbx.huma.com
+      host: fastapi-example-xt6my.cloud.huma.com
       port: 8000
