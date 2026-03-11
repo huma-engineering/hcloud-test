@@ -9,7 +9,7 @@ workspace:
   project: openclaw
 
 services:
-  - name: gateway
+  - name: openclaw
     type: container
     build:
       repo: https://github.com/huma-engineering/fastapi-example
